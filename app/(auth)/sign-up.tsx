@@ -126,8 +126,8 @@ const SignUp = () => {
             href="/sign-in"
             className="text-lg text-center text-general-200 mt-10"
           >
-            Already have an account?{" "}
-            <Text className="text-primary-500">Log In</Text>
+            ¿Ya tienes una cuenta?{" "}
+            <Text className="text-primary-500">Iniciar sesion</Text>
           </Link>
         </View>
         <ReactNativeModal
@@ -143,10 +143,10 @@ const SignUp = () => {
         >
           <View className="bg-white px-7 py-9 rounded-2xl min-h-[300px]">
             <Text className="font-JakartaExtraBold text-2xl mb-2">
-              Verification
+              Verificacion
             </Text>
             <Text className="font-Jakarta mb-5">
-              We've sent a verification code to {form.email}.
+              Hemos enviado un código de verificación a {form.email}.
             </Text>
             <InputField
               label={"Code"}
@@ -180,7 +180,7 @@ const SignUp = () => {
               Verified
             </Text>
             <Text className="text-base text-gray-400 font-Jakarta text-center mt-2">
-              You have successfully verified your account.
+              Has verificado tu cuenta exitosamente.
             </Text>
             <CustomButton
               title="Browse Home"

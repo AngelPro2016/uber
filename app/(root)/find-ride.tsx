@@ -18,7 +18,7 @@ const FindRide = () => {
   return (
     <RideLayout title="Ride">
       <View className="my-3">
-        <Text className="text-lg font-JakartaSemiBold mb-3">From</Text>
+        <Text className="text-lg font-JakartaSemiBold mb-3">De</Text>
 
         <GoogleTextInput
           icon={icons.target}
@@ -30,7 +30,7 @@ const FindRide = () => {
       </View>
 
       <View className="my-3">
-        <Text className="text-lg font-JakartaSemiBold mb-3">To</Text>
+        <Text className="text-lg font-JakartaSemiBold mb-3">a</Text>
 
         <GoogleTextInput
           icon={icons.map}
