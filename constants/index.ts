@@ -73,23 +73,23 @@ export const icons = {
 export const onboarding = [
   {
     id: 1,
-    title: "The perfect ride is just a tap away!",
+    title: "¡El viaje perfecto está a sólo un toque de distancia!",
     description:
-      "Your journey begins with Ryde. Find your ideal ride effortlessly.",
+      "Tu viaje comienza con COMTRILAMANA. Encuentra tu transporte ideal sin esfuerzo.",
     image: images.onboarding1,
   },
   {
     id: 2,
-    title: "Best car in your hands with Ryde",
+    title: "El mejor transporte en tus manos con COMTRILAMANA",
     description:
-      "Discover the convenience of finding your perfect ride with Ryde",
+      "Descubra la comodidad de encontrar su viaje perfecto con COMTRILAMANA",
     image: images.onboarding2,
   },
   {
     id: 3,
-    title: "Your ride, your way. Let's go!",
+    title: "Tu viaje, a tu manera. ¡Vamos allá!",
     description:
-      "Enter your destination, sit back, and let us take care of the rest.",
+      "Ingrese su destino, siéntese y déjenos encargarnos del resto.",
     image: images.onboarding3,
   },
 ];
