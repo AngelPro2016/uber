@@ -44,6 +44,7 @@ export default function Layout() {
           height: 78,
           display: "flex",
           justifyContent: "space-between",
+          gap: 30,
           alignItems: "center",
           flexDirection: "row",
           position: "absolute",
@@ -67,16 +68,6 @@ export default function Layout() {
           headerShown: false,
           tabBarIcon: ({ focused }) => (
             <TabIcon source={icons.list} focused={focused} />
-          ),
-        }}
-      />
-      <Tabs.Screen
-        name="chat"
-        options={{
-          title: "Chat",
-          headerShown: false,
-          tabBarIcon: ({ focused }) => (
-            <TabIcon source={icons.chat} focused={focused} />
           ),
         }}
       />

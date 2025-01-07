@@ -29,6 +29,7 @@ const SignUp = () => {
     if (!isLoaded) return;
     try {
       await signUp.create({
+        firstName: form.name,
         emailAddress: form.email,
         password: form.password,
       });

@@ -47,7 +47,6 @@ export const icons = {
   arrowDown,
   arrowUp,
   backArrow,
-  chat,
   checkmark,
   close,
   dollar,
