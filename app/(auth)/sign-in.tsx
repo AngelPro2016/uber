@@ -51,8 +51,8 @@ const SignIn = () => {
 
         <View className="p-5">
           <InputField
-            label="Email"
-            placeholder="Enter email"
+            label="Correo"
+            placeholder="Ingresa tu correo electronico"
             icon={icons.email}
             textContentType="emailAddress"
             value={form.email}
@@ -60,8 +60,8 @@ const SignIn = () => {
           />
 
           <InputField
-            label="Password"
-            placeholder="Enter password"
+            label="Contrasena"
+            placeholder="Ingresa tu contrasena"
             icon={icons.lock}
             secureTextEntry={true}
             textContentType="password"
@@ -70,7 +70,7 @@ const SignIn = () => {
           />
 
           <CustomButton
-            title="Sign In"
+            title="Iniciar Sesion"
             onPress={onSignInPress}
             className="mt-6"
           />

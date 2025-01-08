@@ -55,7 +55,7 @@ const Home = () => {
       </Swiper>
 
       <CustomButton
-        title={isLastSlide ? "Get Started" : "Next"}
+        title={isLastSlide ? "Vamos a empezar" : "Siguiente"}
         onPress={() =>
           isLastSlide
             ? router.replace("/(auth)/sign-up")

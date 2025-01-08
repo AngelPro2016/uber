@@ -68,7 +68,7 @@ const SignUp = () => {
       } else {
         setVerification({
           ...verification,
-          error: "Verification failed. Please try again.",
+          error: "Fallo la verificacion. Intente de nuevo.",
           state: "failed",
         });
       }
@@ -88,28 +88,28 @@ const SignUp = () => {
         <View className="relative w-full h-[250px]">
           <Image source={images.signUpCar} className="z-0 w-full h-[250px]" />
           <Text className="text-2xl text-black font-JakartaSemiBold absolute bottom-5 left-5">
-            Create Your Account
+            Crea Tu Cuenta
           </Text>
         </View>
         <View className="p-5">
           <InputField
-            label="Name"
-            placeholder="Enter name"
+            label="Nombre"
+            placeholder="Ingresa tu nombre"
             icon={icons.person}
             value={form.name}
             onChangeText={(value) => setForm({ ...form, name: value })}
           />
           <InputField
-            label="Email"
-            placeholder="Enter email"
+            label="Correo"
+            placeholder="Ingresa tu correo electronico"
             icon={icons.email}
             textContentType="emailAddress"
             value={form.email}
             onChangeText={(value) => setForm({ ...form, email: value })}
           />
           <InputField
-            label="Password"
-            placeholder="Enter password"
+            label="Contrasena"
+            placeholder="Ingresa tu contrasena"
             icon={icons.lock}
             secureTextEntry={true}
             textContentType="password"
@@ -117,7 +117,7 @@ const SignUp = () => {
             onChangeText={(value) => setForm({ ...form, password: value })}
           />
           <CustomButton
-            title="Sign Up"
+            title="Registrarse"
             onPress={onSignUpPress}
             className="mt-6"
           />
