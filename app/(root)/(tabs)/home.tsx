@@ -12,6 +12,7 @@ import {
   ActivityIndicator,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
+import CustomButton from "@/components/CustomButton";
 
 import GoogleTextInput from "@/components/GoogleTextInput";
 import Map from "@/components/Map";
@@ -62,6 +63,7 @@ const Home = () => {
       });
     })();
   }, []);
+
 
   const handleDestinationPress = (location: {
     latitude: number;
@@ -129,6 +131,11 @@ const Home = () => {
                 <Map />
               </View>
             </>
+            <CustomButton
+              title="Encontrar sin destino"
+              onPress={() => router.push(`/(root)/nodestinationride`)}
+              className="mt-5"
+            />
 
             <Text className="text-xl font-JakartaBold mt-5 mb-3">
               Viajes recientes</Text>
