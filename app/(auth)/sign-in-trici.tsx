@@ -75,7 +75,7 @@ const SignInTrici = () => {
                         className="mt-6"
                     />
 
-                    <OAuth />
+                    
 
                     <Link
                         href="/welcome"
