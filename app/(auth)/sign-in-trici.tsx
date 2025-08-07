@@ -5,7 +5,6 @@ import { Alert, Image, ScrollView, Text, View } from "react-native";
 
 import CustomButton from "@/components/CustomButton";
 import InputField from "@/components/InputField";
-import OAuth from "@/components/OAuth";
 import { icons, images } from "@/constants";
 
 const SignInTrici = () => {

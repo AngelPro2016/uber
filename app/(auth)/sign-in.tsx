@@ -76,10 +76,17 @@ const SignIn = () => {
           />
 
           <OAuth />
+          <Link
+            href="/sign-in-trici"
+            className="text-lg text-center text-general-200 mt-5"
+          >
+            ¿Ya tienes una cuenta de tricimotero?{" "}
+            <Text className="text-primary-500">Iniciar sesion como tricimotero</Text>
+          </Link>
 
           <Link
             href="/sign-up"
-            className="text-lg text-center text-general-200 mt-10"
+            className="text-lg text-center text-general-200 mt-5"
           >
             ¿No tienes una cuenta?{" "}
             <Text className="text-primary-500">Registrarse</Text>
